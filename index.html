@@ -3,11 +3,13 @@
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
 
 <!-- Navbar (sit on top) -->
@@ -20,7 +22,7 @@
         <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
         <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
         <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
-        <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+        <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope w3-hide-medium"></i> CONTACT</a>
       </div>
       <!-- Hide right-floated links on small screens and replace them with a menu icon -->
   
@@ -51,10 +53,10 @@
     <div class="w3-display-left w3-padding w3-col l6 m8">
 
         <div class="w3-white w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large" style="margin-left:50px;" >
-          <h1 class="w3-xlarge">Citrus Farm</h1>
+          <h1 class="w3-xxxlarge" style="color: yellow">Citrus Farm</h1>
           <hr class="w3-opacity">
           <p>We export from Cyprus to Europe quality fresh products: White & Red Grapefruit, Valencia Oranges, Pomegranate, Mandoras & Nova Mandarins.</p>
-          <p><button class="w3-button w3-block w3-green w3-round" onclick="document.getElementById('download').style.display='block'" style="padding-left:10px;width:50%">Contact Us <i class="fa fa-android"></i> <i class="fa fa-apple"></i> <i class="fa fa-windows"></i></button></p>
+          <p><button class="w3-button w3-block w3-yellow w3-round" onclick="document.getElementById('download').style.display='block'" style="padding-left:10px; width:50%;">Contact Us</button></p>
         </div>
     </div>
     
@@ -101,9 +103,62 @@
   </header>
   
 
-
-<!-- Page End -->
+  
+ 
 </div>
+
+<div class="w3-content" style="max-width:1500px">
+
+  <!-- Header -->
+  <header class="w3-panel w3-center w3-opacity" style="padding:128px 16px">
+    <h1 class="w3-xlarge">PHOTOGRAPHER</h1>
+    <h1>John Doe</h1>
+    
+    <div class="w3-padding-32">
+      <div class="w3-bar w3-border">
+        <a href="#" class="w3-bar-item w3-button">Home</a>
+        <a href="#" class="w3-bar-item w3-button w3-light-grey">Portfolio</a>
+        <a href="#" class="w3-bar-item w3-button">Contact</a>
+        <a href="#" class="w3-bar-item w3-button w3-hide-small">Weddings</a>
+      </div>
+    </div>
+  </header>
+  
+  <!-- Photo Grid -->
+  <div class="w3-row-padding w3-grayscale" style="margin-bottom:128px">
+    <div class="w3-half">
+      <img src="images/spinach.png" style="width:100%; height:600px;">
+      <img src="citrusmain.png"   style="width:100%">
+      <img src="images/tomato.png" style="width:100%">
+      <img src="images/toast.png" style="width:100%">
+      <img src="images/toast.png" style="width:100%">
+      <img src="images/toast.png" style="width:100%">
+      <img src="images/toast.png" style="width:100%">
+    </div>
+  
+    <div class="w3-half">
+      <img src="images/lettuce.png" style="width:100%">
+      <img src="images/toast.png" style="width:100%">
+      <img src="images/toast.png" style="width:100%">
+      <img src="images/toast.png" style="width:100%">
+      <img src="images/toast.png" style="width:100%">
+      <img src="images/toast.png" style="width:100%">
+    </div>
+  </div>
+    
+  <!-- End Page Content -->
+  </div>
+  
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-large"> 
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  </footer>
 <script src="app.js"></script>
 </body>
 </html>
